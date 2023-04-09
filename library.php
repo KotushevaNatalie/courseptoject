@@ -22,38 +22,30 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="index.php" accesskey="1" title="">Map</a></li>
-				<li><a href="library.php" accesskey="2" title="">Table</a></li>
+				<li class="current_page_item"><a href="index.php" accesskey="1" title="" style="color:#fff">Map</a></li>
+				<li><a href="library.php" accesskey="2" title="" style="color:#8dc63f">Table</a></li>
 				<li><a href="authorization.php" accesskey="3" title="">Authorization</a></li>
 				
 			</ul>
 		</div>
 	</div>
 </div>
-<div id="header-featured">
-	<div id="banner-wrapper">
-		<div id="banner" class="container">
-			<h2>Карта строительных работ</h2>
-			<p>Это <strong>Work Watcher</strong>, бесплатный, общедоступный сервис для просмотра строительных работ в городе Москва и Московской области</p>
-			
-		</div>
-	</div>
-</div>
-<div id="wrapper">
-	<div id="featured-wrapper">
-		<div id="featured" class="extra2 margin-btm container">
-			<div class="main-title">
-				<h2>Общая карта</h2>
-			
-			</div>
 
-			<form class="map_main">
-				<div class="map">
-					<iframe src="https://www.google.com/maps/d/embed?mid=1dXfD9qlBLptjIVuOKd1hBZmJfAz5MYQ&ehbc=2E312F" width="740" height="480" vspace="1000"></iframe>
-				</div>
-			</form>
-		</div>
-	</div>
+<div id="wrapper">
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <form action="result.php">
+            <input type="text" name="search" class="search" placeholder="Поиск">
+            <button type="submit" class="find-button" style="background-color:#13085b">Найти</button>
+        </form>
+    </div>
+</div>
+        <table class="library" >
+		<?php require "table.php"; ?>
+        </table>
+
+
 </div>
 <div id="copyright" class="container">
 	<p>Kotushevanatalie@gmail.com</p>

@@ -21,9 +21,9 @@
 		</div>
 		<div id="menu">
 			<ul>
-            <li class="current_page_item"><a href="index.php" accesskey="1" title="">Map</a></li>
-				<li><a href="#" accesskey="2" title="">Table</a></li>
-				<li><a href="#" accesskey="3" title="">Statistics</a></li>
+            <li class="current_page_item"><a href="account.php" accesskey="1" title="">Map</a></li>
+			<li><a href="library.php" accesskey="2" title="">Table</a></li>
+			<li><a href="authorization.php" accesskey="3" title="">Authorization</a></li>
 			</ul>
 		</div>
 	</div>
@@ -142,5 +142,7 @@
 </div>
 <div id="copyright" class="container">
 <p>Kotushevanatalie@gmail.com</p></div>
+<p><a href="https://data.mos.ru/opendata/7709083955-dannye-o-deystvuyushchih-orderah-na-proizvodstvo-rabot/data/table?versionNumber=2&releaseNumber=137"> dataset</a></p>
+
 </body>
 </html>

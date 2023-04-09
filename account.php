@@ -7,8 +7,10 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="map.css" rel="stylesheet" type="text/css" media="all" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
 
 
 
@@ -21,9 +23,10 @@
 		</div>
 		<div id="menu">
 			<ul>
-            <li class="current_page_item"><a href="account.php" accesskey="1" title="">Map</a></li>
+				<li class="current_page_item"><a href="account.php" accesskey="1" title="">Map</a></li>
 				<li><a href="table.php" accesskey="2" title="">Table</a></li>
 				<li><a href="authorization.php" accesskey="3" title="">Authorization</a></li>
+				
 			</ul>
 		</div>
 	</div>
@@ -40,11 +43,10 @@
 	<div id="featured-wrapper">
 		<div id="featured" class="extra2 margin-btm container">
 			<div class="main-title">
-				<h2>Виды работ</h2>
+				<h2>Назначение объекта</h2>
 			</div>
-
 			<ul class="topmenu"><li><a href="" class="submenu-link">Цели проведения работ</a>
-				  <ul class="submenu">
+				<ul class="submenu">
 					<li><a href="<?php 
 						$name='по установке временных ограждений'; 
 						$link='OfTemporaryFences.php'; 
@@ -104,31 +106,20 @@
 				</li>
 			</ul>
 
+			
+
 			<form class="map_main">
 				<div class="map">
-                <iframe src="https://www.google.com/maps/d/embed?mid=1s29zFb1YLLQ6mCZEJn2jc-8_L2ZmtIc&ehbc=2E312F" width="740" height="480"></iframe>				</div>
+					<iframe src="https://www.google.com/maps/d/embed?mid=1dXfD9qlBLptjIVuOKd1hBZmJfAz5MYQ&ehbc=2E312F" width="740" height="480" vspace="1000"></iframe>
+				</div>
 			</form>
-
-            <div class="information">
-                    <p>На данной таблице разными цветами отмеченны объекты в зависимости от вида работ
-                    <li>Розовым отмечены 2.Установка временных ограждений, 3. Размещение временных объектов
-                    <li>Жёлтым отмечены 1. Земляные работы, 2. Установка временных ограждений, 3. Размещение временных объектов
-                    <li>Красным отмечены 1. Земляные работы, 2. Установка временных ограждений
-                    <li>Синим отмеченны  3. Размещение временных объектов
-                    <li>Коричневым отмечены 2.Установка временных ограждений
-                    <li>Оранжевым отмечены  1. Земляные работы
-                    <li>Светло-коричневым отмечены работа без указанного знаечния
-
-                    
-                </p>
-            </div>
-
 		</div>
 	</div>
 </div>
 <div id="copyright" class="container">
-<p>Kotushevanatalie@gmail.com</p></div>
-<p><a href="https://data.mos.ru/opendata/7709083955-dannye-o-deystvuyushchih-orderah-na-proizvodstvo-rabot/data/table?versionNumber=2&releaseNumber=137"> dataset</a></p>
+	<p>Kotushevanatalie@gmail.com</p>
+    <p><a href="https://data.mos.ru/opendata/7709083955-dannye-o-deystvuyushchih-orderah-na-proizvodstvo-rabot/data/table?versionNumber=2&releaseNumber=137"> dataset</a></p>
 
+</div>
 </body>
 </html>

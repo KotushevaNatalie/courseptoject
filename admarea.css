@@ -55,6 +55,7 @@ a:hover
 
 .container
 {
+	position: relative;
 	margin: 0px auto;
 	width: 1200px;
 }
@@ -534,11 +535,6 @@ ul.contact li a.icon-rss:before
 /* Page                                                                          */
 /*********************************************************************************/
 
-#wrapper
-{
-	background: #FFF;
-}
-
 #page
 {
 	overflow: hidden;
@@ -1010,9 +1006,8 @@ nav ul {
   }
 
   .information{
-    position: relative;
-    top: 30px;
-    left: 230px;
+    padding-left: 230px;
+	margin-top: 50px;
     text-align: left;
   }
 
